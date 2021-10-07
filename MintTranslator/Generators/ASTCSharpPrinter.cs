@@ -359,7 +359,10 @@ namespace MintTranslator.AST
         {
             for (int i = 0; i < _depth; i++)
             {
-                _sb.Append("\t");
+                for (int j = 0; j < 4; j++)
+                {
+                    _sb.Append(" ");
+                }
             }
         }
 
