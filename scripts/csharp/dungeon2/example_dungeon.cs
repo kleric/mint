@@ -10,5 +10,5 @@ namespace Aura.Mabi.Mint {
 			builder.SetManual();
 			PuzzleBuilder puzzleBuilder = builder.AddFixedPuzzle(0, "coolawesomescript.mint");
 		}
-}
+	}
 }

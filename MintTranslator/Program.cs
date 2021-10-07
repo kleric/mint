@@ -109,7 +109,7 @@ namespace Aura.Mabi.Mint {
             sb.Append(scriptName);
             sb.AppendLine(" : MintScript {");
             sb.Append(ast);
-            sb.AppendLine("}");
+            sb.AppendLine("\t}");
             sb.AppendLine("}");
             File.WriteAllText(path, sb.ToString());
         }
